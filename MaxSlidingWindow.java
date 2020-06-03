@@ -53,7 +53,7 @@ public class MaxSlidingWindow {
 		}
 		out.close();
 	}
-
+	// for fast I/O operations, the code may fail without this.
 	static class Reader 
 	{ 
 	    final private int BUFFER_SIZE = 1 << 16; 
